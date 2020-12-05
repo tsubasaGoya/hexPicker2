@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    text-align: center
+}
+.btn {
+    text-transform: capitalize;
+    padding: 2.25px;
+    font-size: 1.5rem;
+    border: 5px solid purple;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgray;
+}
+.btn:hover {
+    background-color: black;
+}
+.hex {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
